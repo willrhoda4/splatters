@@ -3,14 +3,33 @@
     <head>
         <title>Splatters</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Newsreader:wght@300&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lobster&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
+        <header>
+            <div class="logo">
+                <h1>S</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#mission">Mission</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <section id="title">
+        <div class="titles">
             <h1>Splatter</h1>
-            <h2>because colour makes everything better</h2>
+        </div>
+        <div class="titles">
+            <h2>because everything's better with colour</h2>
+        </div>
         </section>
         
         <section id="mission">
@@ -20,6 +39,9 @@
         </section>
         
         <section id="services">
+            <div class="titles">
+                <h1>Services</h1>
+            </div>
             <div class="container">
                 <div class="service" id="brush">
                     <img src="images/brushes.jpeg" alt="dirty paint brushes">
@@ -40,6 +62,9 @@
         </section>
 
         <section id="team">
+            <div class="titles">
+                <h1>Team</h1>
+            </div>
             <div class="container">
                 <div class ="member">
                     <img src="images/staff-1.jpeg" alt="portrait of Clarissa Crayola">
@@ -58,22 +83,21 @@
                 </div>
                 <div class ="member">
                     <img src="images/staff-4.jpeg" alt="portrait of Marty Markers">
-                    <h4>Marty Markers</h4>
+                    <h3>Marty Markers</h3>
                     <p><b>Marketing manager and master paint splasher</b>, Marty just wants the world to look a little more like a tie-dye T-shirt.</p>
                 </div>
             </div>
         </section>
 
-        <section id="contact">
-            <div class="container">
+        <footer>
+            <div id="contact">  
                 <h1>Splatter</h1>
                 <p>info@splatter.com</p>
                 <p>555-255-3855</p>
             </div>
-        </section>
-
-        <footer>
+            <div id="disclaimer">
             <p>all images are courtesy of <a href="https://unsplash.com/">Unsplash</a>.</p>
             <img src="images/pallet-icon.png" alt="an icon of a paint pallet">
+            </div>
         </footer>
     </body>
