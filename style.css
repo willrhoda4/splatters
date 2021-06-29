@@ -48,6 +48,7 @@ header {
         justify-self: flex-end;
         padding-right: 20px;
         flex-direction: row;
+        border: pink 1px solid;
     }
 
     header nav ul li {
